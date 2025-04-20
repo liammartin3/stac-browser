@@ -1,0 +1,22 @@
+{
+    "id": "local-catalog",
+    "stac_version": "1.0.0-beta.2",
+    "description": "This catalog is a basic demonstration catalog highlighting Vermont Agriculture.",
+    "links": [
+        {
+            "rel": "root",
+            "href": "./catalog.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "item",
+            "href": "./ag/ag.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "item",
+            "href": "./wetland/wetland.json",
+            "type": "application/json"
+        }
+    ]
+}
