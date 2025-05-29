@@ -1,5 +1,5 @@
 {
-    "id": "local-catalog",
+    "id": "ldm-stac-catalog",
     "stac_version": "1.0.0-beta.2",
     "description": "This catalog is a basic demonstration catalog highlighting Vermont Agriculture.",
     "links": [
@@ -15,7 +15,12 @@
         },
         {
             "rel": "item",
-            "href": "./wetland/wetland.json",
+            "href": "./wetlands/wetlands.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "item",
+            "href": "./shrublands/shrublands.json",
             "type": "application/json"
         }
     ]

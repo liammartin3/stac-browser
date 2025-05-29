@@ -1,7 +1,7 @@
 {
     "type": "Feature",
     "stac_version": "1.0.0-beta.2",
-    "id": "Vermont Agriculture 2022",
+    "id": "Vermont Shrublands 2022",
     "properties": {
         "datetime": "2025-05-29T14:01:54.748071Z"
     },
@@ -46,7 +46,7 @@
     ],
     "assets": {
         "image": {
-            "href": "https://stac-data.s3.us-east-2.amazonaws.com/STATEWIDE_2022_50cm_LANDCOVER_Agriculture.tif",
+            "href": "https://stac-data.s3.us-east-2.amazonaws.com/STATEWIDE_2022_50cm_LANDCOVER_Shrublands.tif",
             "type": "image/tiff; application=geotiff"
         }
     },
